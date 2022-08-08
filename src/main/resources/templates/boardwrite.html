@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>게시물 작성 폼</title>
+</head>
+
+<style>
+
+    .layout {
+        width: 500px;
+        margin: 40px auto 0;
+    }
+
+    .layout > .title > input {
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 10px;
+    }
+
+    .layout > .content > textarea{
+        width: 100%;
+        margin-top: 10px;
+        min-height: 300px;
+    }
+</style>
+
+<body>
+  <div class="layout">
+      <div class="title">
+          <p>게시글 제목</p>
+          <input type="text">
+      </div>
+
+      <div class="content">
+          <p>게시글 내용</p>
+          <textarea></textarea>
+      </div>
+    <button>작성</button>
+  </div>
+</body>
+</html>
